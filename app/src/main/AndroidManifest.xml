@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.xdroid.demo">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.xdroid.demo.LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xdroid.demo.viewgroup.scrollview.ScrollViewDemoActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.viewgroup.linearlayout.LinearLayoutActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.viewgroup.multype.MulTypeActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.viewgroup.multype.mulbean.MulTypeMulBeanActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.viewgroup.flowswipe.FlowSwipeActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.rv.RvSingleActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.lvgv.ListViewSingleActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.databinding.rv.single.DBSingleActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.databinding.rv.multype.DBMultypeSingleItemActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.databinding.rv.multype.mulbean.DBMulTypeMulBeanActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.databinding.viewgroup.DBFlowSwipeActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.rv.mul.RvMulTypeMulBeanActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.viewgroup.fakergrid.FakerGridViewActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.rv.header.RvHeaderFooterActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.lvgv.GridViewActivity">
+        </activity>
+        <activity android:name="com.xdroid.demo.rv.header.RvHeaderMulTypeActivity">
+        </activity>
+    </application>
+
+</manifest>
